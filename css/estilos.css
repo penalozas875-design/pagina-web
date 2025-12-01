@@ -1,0 +1,62 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:0;
+}
+
+/* Login */
+.login-container{
+    width:300px;
+    margin:100px auto;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px #aaa;
+}
+.login-container input{
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+}
+.login-container button{
+    width:100%;
+    padding:10px;
+    background:#3498db;
+    color:white;
+    border:0;
+    border-radius:5px;
+}
+.error { color:red; }
+
+/* Dashboard */
+.menu{
+    background:#3498db;
+    padding:20px;
+}
+.menu a{
+    margin-right:15px;
+    color:white;
+    text-decoration:none;
+}
+
+/* Tablas */
+table{
+    margin:20px;
+    width:95%;
+    background:white;
+    border-collapse:collapse;
+}
+table th, table td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+.btn{
+    margin:15px;
+    padding:10px 20px;
+    background:green;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+.editar{ color:orange; }
+.eliminar{ color:red; }
