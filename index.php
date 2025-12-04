@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <link rel="stylesheet" href="css/estilos.css">
     <title>Login</title>

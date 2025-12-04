@@ -1,5 +1,5 @@
 <?php
-include_once"../db.php";
+use"../db.php";
 
 if ($_POST) {
     $nombre = $_POST['nombre'];
@@ -14,7 +14,7 @@ if ($_POST) {
 $tipos = $conexion->query("SELECT * FROM tipos");
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <link rel="stylesheet" href="../css/estilos.css">
 <title>Crear Producto</title>

@@ -1,5 +1,5 @@
 <?php
-$config = require 'config.php';
+$config = require_once 'config.php';
 
 $conexión = new mysqli(
     $config["host"],
