@@ -6,7 +6,7 @@ if (!isset($_SESSION['admin'])) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<lang html>
 <head>
     <link rel="stylesheet" href="css/estilos.css">
     <title>Dashboard</title>
@@ -17,7 +17,7 @@ if (!isset($_SESSION['admin'])) {
     <h2>Panel Administrador</h2>
     <a href="productos/listar.php">📦 Productos</a>
     <a href="tipos/listar.php">📂 Tipos de Productos</a>
-    <a href="logout.php">🚪 Cerrar sesión</a>
+    <a href="index.php">🚪 Cerrar sesión</a>
 </nav>
 
 </body>

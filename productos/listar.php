@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['admin'])) { header("Location: ../index.php"); exit; }
-include("../db.php");
+include_once("../db.php");
 $datos = $conexion->query("SELECT p.id, p.nombre, p.precio, t.nombre AS tipo
  FROM productos p LEFT JOIN tipos t ON p.id_tipo=t.id");
 ?>

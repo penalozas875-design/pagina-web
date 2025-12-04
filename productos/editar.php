@@ -1,5 +1,5 @@
 <?php
-include("../db.php");
+include_once("../db.php");
 $id = $_GET['id'];
 
 $producto = $conexion->query("SELECT * FROM productos WHERE id=$id")->fetch_assoc();

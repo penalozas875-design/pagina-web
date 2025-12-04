@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['admin'])) { header("Location: ../index.php"); exit; }
-include("../db.php");
+include_once("../db.php");
 
 $tipos = $conexion->query("SELECT * FROM tipos");
 ?>

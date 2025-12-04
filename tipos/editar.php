@@ -1,5 +1,5 @@
 <?php
-include("../db.php");
+include_once("../db.php");
 $id = $_GET['id'];
 
 $tipo = $conexion->query("SELECT * FROM tipos WHERE id=$id")->fetch_assoc();
