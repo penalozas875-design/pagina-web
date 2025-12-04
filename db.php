@@ -1,6 +1,13 @@
 <?php
-$conexion = new mysqli("localhost", "root", "NuevaContraseñaSegura123!", "crud_php");
-if ($conexion->connect_error) {
-    die("Error: " . $conexion->connect_error);
-}
+$config = require 'config.php';
 
+$conexión = new mysqli(
+    $config["host"],
+    $config["user"],
+    $config["pass"],
+    $config["db"]
+);
+
+if ($conexión->connect_error) {
+    die("Error de conexión: " . $conexión->connect_error);
+}
